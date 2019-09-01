@@ -1,0 +1,55 @@
+module expansion_p_box(expan_output, expan_input);
+
+input [32:1] expan_input;
+output wire [48:1] expan_output;
+
+assign expan_output[1]= expan_input[32];
+assign expan_output[2]= expan_input[1];
+assign expan_output[3]= expan_input[2];
+assign expan_output[4]= expan_input[3];
+assign expan_output[5]= expan_input[4];
+assign expan_output[6]= expan_input[5];
+assign expan_output[7]= expan_input[4];
+assign expan_output[8]= expan_input[5];
+assign expan_output[9]= expan_input[6];
+assign expan_output[10]= expan_input[7];
+assign expan_output[11]= expan_input[8];
+assign expan_output[12]= expan_input[9];
+assign expan_output[13]= expan_input[8];
+assign expan_output[14]= expan_input[9];
+assign expan_output[15]= expan_input[10];
+assign expan_output[16]= expan_input[11];
+assign expan_output[17]= expan_input[12];
+assign expan_output[18]= expan_input[13];
+assign expan_output[19]= expan_input[12];
+assign expan_output[20]= expan_input[13];
+assign expan_output[21]= expan_input[14];
+assign expan_output[22]= expan_input[15];
+assign expan_output[23]= expan_input[16];
+assign expan_output[24]= expan_input[17];
+assign expan_output[25]= expan_input[16];
+assign expan_output[26]= expan_input[17];
+assign expan_output[27]= expan_input[18];
+assign expan_output[28]= expan_input[19];
+assign expan_output[29]= expan_input[20];
+assign expan_output[30]= expan_input[21];
+assign expan_output[31]= expan_input[20];
+assign expan_output[32]= expan_input[21];
+assign expan_output[33]= expan_input[22];
+assign expan_output[34]= expan_input[23];
+assign expan_output[35]= expan_input[24];
+assign expan_output[36]= expan_input[25];
+assign expan_output[37]= expan_input[24];
+assign expan_output[38]= expan_input[25];
+assign expan_output[39]= expan_input[26];
+assign expan_output[40]= expan_input[27];
+assign expan_output[41]= expan_input[28];
+assign expan_output[42]= expan_input[29];
+assign expan_output[43]= expan_input[28];
+assign expan_output[44]= expan_input[29];
+assign expan_output[45]= expan_input[30];
+assign expan_output[46]= expan_input[31];
+assign expan_output[47]= expan_input[32];
+assign expan_output[48]= expan_input[1];
+
+endmodule
